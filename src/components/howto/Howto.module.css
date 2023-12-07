@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    color: #5A5A5A
+}
+
+.containerSteps {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.steps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+
+
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.number {
+    -webkit-box-shadow: inset 0px 0px 42px -30px rgba(90, 90, 90, 1);
+    -moz-box-shadow: inset 0px 0px 42px -30px rgba(90, 90, 90, 1);
+    box-shadow: inset 0px 0px 42px -30px rgba(90, 90, 90, 1);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #DA0916;
+    font-size: 2.87rem;
+    margin-right: 1rem;
+}
+
+.title {
+    font-family: "GalanoGrotesque";
+    font-size: 2.18rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+}
+
+.containerButton {
+    margin-top: 5rem;
+}
+
+.containerButton a {
+    background: #DA0916;
+    box-shadow: -5px -5px 20px #ffffff, 5px 5px 20px #84858c;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Akrobat";
+    font-size: 1.56rem;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 1.125rem;
+    outline: none;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}

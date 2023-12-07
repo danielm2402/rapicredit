@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(circle, rgba(111, 111, 111, 1) 0%, rgba(0, 0, 0, 1) 94%);
+
+
+
+
+}
+
+.containerCalculator {
+    padding-top: 2rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../assets/navidad.png');
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    border: none;
+    filter: drop-shadow(0 0 1200px #000000);
+    padding-left: 5rem;
+}
+
+.calculatorTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.containerIcons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.icon {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.containerHowTo {
+    width: 100%;
+    height: 100vh;
+}

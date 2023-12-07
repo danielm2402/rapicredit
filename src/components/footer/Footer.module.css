@@ -1,0 +1,31 @@
+.footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.socialIcons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialIcon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos de los íconos de redes sociales (Font Awesome) */
+.socialIcon i {
+    transition: color 0.3s ease-in-out;
+}
+
+.socialIcon i:hover {
+    color: #CC0815;
+}
