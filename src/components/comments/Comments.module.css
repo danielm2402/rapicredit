@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #ECEDF1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    flex-direction: column;
+}
+
+.containerComment {
+    width: 70%;
+    height: auto;
+    background-color: #878a97;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.containerComment h2 {
+    margin-left: 3rem;
+}

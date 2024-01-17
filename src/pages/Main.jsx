@@ -10,6 +10,9 @@ import Calculator from '../components/calculator/Calculator';
 import Howto from '../components/howto/Howto';
 import banner from '../assets/navidad.png'
 import Footer from '../components/footer/Footer';
+import Faq from '../components/questions/Faq';
+import Direction from '../components/direction/Direction';
+import Comments from '../components/comments/Comments';
 export default function Main() {
     return (
         <div className={styles.container}>
@@ -58,17 +61,14 @@ export default function Main() {
                                 Sin papeleos, ni traslados, sin referencias, codeudores o intermediarios
                             </div>
                         </div>
-
                         <div className={styles.icon}>
                             <div>
                                 <TbPigMoney style={{ paddingRight: 5 }} color='#FD0000' size={50} />
-
                             </div>
                             <div>
                                 Podrás realizar pagos anticipados de cuotas o saldos de forma total o parcial sin penalidades
                             </div>
                         </div>
-
                         <div className={styles.icon}>
                             <div>
                                 <FaCalendar style={{ paddingRight: 5 }} color='#FD0000' size={50} />
@@ -77,8 +77,6 @@ export default function Main() {
                                 Puedes extender tu plazo hasta 5 meses con el servicio de Ampliar Plazo
                             </div>
                         </div>
-
-
                     </div>
                 </div>
                 <div className={styles.calculator}>
@@ -87,6 +85,18 @@ export default function Main() {
             </div>
             <div className={styles.containerHowTo}>
                 <Howto></Howto>
+            </div>
+            <div className={styles.containerFaq}>
+                <Faq></Faq>
+            </div>
+            <div className={styles.containerHowTo}>
+                <Direction coords={[2.45960, -76.59524]} title='Popayan, Cauca - Centro Comercial Campanario, Local 203' ></Direction>
+            </div>
+            <div className={styles.containerHowTo}>
+                <Direction coords={[3.36903, -76.52749]} title='Cali, Valle del Cauca - Centro Comercial Jardin Plaza, Local 107' ></Direction>
+            </div>
+            <div className={styles.containerHowTo}>
+                <Comments></Comments>
             </div>
             <Footer></Footer>
         </div>

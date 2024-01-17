@@ -1,0 +1,46 @@
+{
+    "preguntas_frecuentes": [
+        {
+            "pregunta": "¿Por qué elegir un préstamo online en Colombia?",
+            "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit. Curabitur est nibh,"
+        },
+        {
+            "pregunta": "¿Cómo saber si los préstamos por internet son seguros?",
+            "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit. Curabitur est nibh,"
+        },
+        {
+            "pregunta": "¿Cuánto dinero puedo conseguir con los préstamos en línea?",
+            "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit. Curabitur est nibh,"
+        },
+        {
+            "pregunta": "¿En cuánto tiempo podré disfrutar de mi préstamo de dinero?",
+            "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit. Curabitur est nibh,"
+        },
+        {
+            "pregunta": "¿En cuánto tiempo podré disfrutar de mi préstamo de dinero?",
+            "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat, ultricies metus at, consequat velit. Curabitur est nibh,"
+        }
+    ],
+    "comentarios": [
+        {
+            "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+        },
+        {
+            "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+        },
+        {
+            "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+        },
+        {
+            "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+        }
+    ],
+    "whatsapp": "573137551189",
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "imagen_principal": "https://www.rapicredit.com/wp-content/uploads/2024/01/cover-home-familia-e1704836765966.jpg"
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Howto.module.css'
+import Data from '../../../config.json'
 export default function Howto() {
     return (
         <div className={styles.container}>
@@ -27,7 +28,7 @@ export default function Howto() {
                 </div>
             </div>
             <div className={styles.containerButton}>
-                <a href='https://api.whatsapp.com/send/?phone=573137551189&text&type=phone_number&app_absent=0'>Solicita tu Credito</a>
+                <a href={`https://api.whatsapp.com/send/?phone=${Data.whatsapp}&text&type=phone_number&app_absent=0`}>Solicita tu Credito</a>
             </div>
         </div>
     )
