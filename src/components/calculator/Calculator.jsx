@@ -5,7 +5,7 @@ export default function Calculator() {
     const [range2, setRange2] = useState(10)
     return (
         <div className={styles.container}>
-            <h3>CALCULA TU CRÉDITO ONLINE (Dolares Americanos)</h3>
+            <h3>CALCULA TU CRÉDITO ONLINE (Dólares Americanos)</h3>
             <p>¿Cuánto dinero necesitas?</p>
             <div className={styles.slideContainer}>
                 <input step={1000} onChange={(e) => setRange1(e.target.value)} value={range1} type="range" min="5000" max="1000000" className={styles.slider} id="myRange" />

@@ -6,7 +6,7 @@ export default function Direction(props) {
 
     const position = [51.505, -0.09]
     return (
-        <div style={{ width: '80%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column' }}>
+        <div style={{ width: '80%', height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', overflow: 'hidden' }}>
             <h2>Visitanos en nuestras oficinas</h2>
             <p>{props.title}</p>
             <MapContainer style={{ height: '50%', width: '100%' }} center={props.coords} zoom={20} scrollWheelZoom={true}>

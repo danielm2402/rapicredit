@@ -9,7 +9,9 @@
     border-radius: 1%;
 }
 
-.container h3 {}
+.container h3 {
+    text-align: center;
+}
 
 .slideContainer {
     width: 80%;
@@ -63,4 +65,15 @@
 
 .terms {
     font-size: xx-small;
+}
+
+
+@media screen and (width <=768px) {
+    .container {
+        height: 80%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
 }

@@ -8,7 +8,6 @@ import { TbPigMoney } from "react-icons/tb";
 import { FaCalendar } from "react-icons/fa";
 import Calculator from '../components/calculator/Calculator';
 import Howto from '../components/howto/Howto';
-import banner from '../assets/navidad.png'
 import Footer from '../components/footer/Footer';
 import Faq from '../components/questions/Faq';
 import Direction from '../components/direction/Direction';
@@ -16,7 +15,7 @@ import Comments from '../components/comments/Comments';
 export default function Main() {
     return (
         <div className={styles.container}>
-            <img style={{ position: 'absolute', zIndex: -1 }} src={banner}></img>
+
             <Header></Header>
             <div className={styles.containerCalculator}>
                 <div className={styles.calculatorTitle}>
@@ -95,7 +94,7 @@ export default function Main() {
             <div className={styles.containerHowTo}>
                 <Direction coords={[3.36903, -76.52749]} title='Cali, Valle del Cauca - Centro Comercial Jardin Plaza, Local 107' ></Direction>
             </div>
-            <div className={styles.containerHowTo}>
+            <div>
                 <Comments></Comments>
             </div>
             <Footer></Footer>

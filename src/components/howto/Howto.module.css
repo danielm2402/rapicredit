@@ -76,3 +76,25 @@
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+@media screen and (width <=768px) {
+    .container {
+        justify-content: space-around;
+    }
+
+    .containerSteps {
+        width: 95%;
+    }
+
+    .containerButton {
+        margin: 0;
+    }
+
+    .title {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+}

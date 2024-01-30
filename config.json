@@ -24,19 +24,23 @@
     "comentarios": [
         {
             "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
-            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente",
+            "nombre": "John Doe"
         },
         {
             "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
-            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente",
+            "nombre": "John Doe"
         },
         {
             "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
-            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente",
+            "nombre": "John Doe"
         },
         {
             "foto": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-02.jpg",
-            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente"
+            "comentario": "Tenía dudas de los bajos intereses, pero su organizacion es excelente",
+            "nombre": "John Doe"
         }
     ],
     "whatsapp": "573137551189",

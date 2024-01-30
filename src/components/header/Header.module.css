@@ -4,7 +4,6 @@
     height: 12vh;
     background-color: transparent;
     flex-direction: row;
-
 }
 
 .containerLogo {
@@ -35,4 +34,17 @@
 .containerItems a:hover {
     color: #CC0815;
     cursor: pointer;
+}
+
+
+@media screen and (width <=768px) {
+    .containerItems {
+        display: none;
+    }
+
+    .containerLogo {
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 2rem;
+    }
 }

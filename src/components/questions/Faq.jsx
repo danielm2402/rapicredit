@@ -8,7 +8,7 @@ const stylesFaq = {
     titleTextColor: "#5A5A5A",
     rowTitleColor: "#5A5A5A",
     titleTextSize: '3rem',
-    arrowColor: '#FB1718'
+    arrowColor: '#FB1718',
     // rowContentColor: 'grey',
     // arrowColor: "red",
 };

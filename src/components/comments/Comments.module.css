@@ -24,3 +24,31 @@
 .containerComment h2 {
     margin-left: 3rem;
 }
+
+.containerAvatar {}
+
+@media screen and (width <=768px) {
+    .container {
+        height: auto;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .containerComment h2 {
+        padding-left: 0;
+    }
+
+    .containerComment {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+
+    }
+
+    .containerAvatar {}
+
+}
