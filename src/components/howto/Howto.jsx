@@ -1,7 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './Howto.module.css'
-import Data from '../../../config.json'
 export default function Howto() {
+    const [whatsapp, setWhatsapp] = useState('')
+    useEffect(() => {
+        const downloadFile = async () => {
+            const fileURL = 'https://api.myjson.online/v1/records/69882744-6049-4f71-968c-b1ad1a5e4964';
+
+            try {
+                const response = await fetch(fileURL);
+                const data = await response.json(); // O response.text() dependiendo del tipo de contenido
+                setWhatsapp(`https://api.whatsapp.com/send/?phone=${data.data.whatsapp}&text&type=phone_number&app_absent=0`)
+            } catch (error) {
+                console.error('Error al descargar el archivo', error);
+            }
+        };
+
+        downloadFile();
+    }, [])
+
     return (
         <div className={styles.container}>
             <div className={styles.title}>¿CÓMO SOLICITAR TU CRÉDITO ONLINE?</div>
@@ -28,7 +44,7 @@ export default function Howto() {
                 </div>
             </div>
             <div className={styles.containerButton}>
-                <a href={`https://api.whatsapp.com/send/?phone=${Data.whatsapp}&text&type=phone_number&app_absent=0`}>Solicita tu Credito</a>
+                <a href={whatsapp}>Solicita tu Credito</a>
             </div>
         </div>
     )

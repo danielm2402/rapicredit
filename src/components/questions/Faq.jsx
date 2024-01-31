@@ -26,7 +26,24 @@ export default function FaqSection() {
     })
 
     useEffect(() => {
-        setData({ ...data, rows: Data.preguntas_frecuentes.map(p => ({ title: p.pregunta, content: p.respuesta })) })
+
+        const downloadFile = async () => {
+            const fileURL = 'https://api.myjson.online/v1/records/69882744-6049-4f71-968c-b1ad1a5e4964';
+
+            try {
+                const response = await fetch(fileURL);
+                const data1 = await response.json();
+
+                setData({ ...data, rows: data1.data.preguntas_frecuentes.map(p => ({ title: p.pregunta, content: p.respuesta })) })
+
+            } catch (error) {
+                console.error('Error al descargar el archivo', error);
+            }
+        };
+
+        downloadFile();
+
+
     }, [])
     return (
         <div className={styles.containerFaq}>

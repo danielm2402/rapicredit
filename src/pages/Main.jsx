@@ -28,7 +28,7 @@ export default function Main() {
 
                             </div>
                             <div>
-                                Te prestamos desde $100.000 y hasta $1.000.000
+                                Te prestamos desde $5.000 hasta $1.000.000
                             </div>
                         </div>
 
